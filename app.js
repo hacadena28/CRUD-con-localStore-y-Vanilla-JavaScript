@@ -5,14 +5,16 @@ let arrayProductos =[];
 
 //Funciones
 const CrearItem =(producto) => {
-
+    if(producto == ""){
+        alert("Por favor digite un producto")
+    }else{
     let item ={
         producto: producto,
         estado: false
     }
     arrayProductos.push(item);
     return item;
-}
+} }
 
 const GuardarBD =()=>{
 localStorage.setItem('lista', JSON.stringify(arrayProductos))
