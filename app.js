@@ -67,7 +67,7 @@ const EditarDB = (producto) => {
 
     let indexArray = arrayProductos.findIndex((elemento)=>elemento.producto === producto);
 
-    arrayProductos[indexArray].estado=true;
+    arrayProductos[indexArray].estado=truefgdfg;
     GuardarBD();
 }
 
