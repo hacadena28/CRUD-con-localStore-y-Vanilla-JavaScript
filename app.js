@@ -10,7 +10,7 @@ const CrearItem =(producto) => {
     }else{
     let item ={
         producto: producto,
-        estado: false
+        estado: comprar
     }
     arrayProductos.push(item);
     return item;
